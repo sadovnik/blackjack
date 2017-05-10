@@ -1,9 +1,9 @@
 require 'spec_helper'
 
-BaseHand = Blackjack::Hand::BaseHand
+Hand = Blackjack::Hand::BaseHand
 Card = Blackjack::Card
 
-describe BaseHand do
+describe Hand do
   describe '#value' do
     [
       # card ranks, expected value
